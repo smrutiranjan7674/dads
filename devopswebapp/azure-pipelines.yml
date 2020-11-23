@@ -1,8 +1,8 @@
 variables:
     # Container registry service connection established during pipeline creation
-    dockerRegistryServiceConnection: devops-acr-connection
-    imageRepository: devops-course-repository
-    containerRegistry: devopscourseregistry
+    dockerRegistryServiceConnection: Docker-service-connection
+    imageRepository: smrutiranjan7674
+    containerRegistry: devops-azure-test
     dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
     tag: 'latest'
 
