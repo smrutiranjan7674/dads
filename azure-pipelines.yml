@@ -2,7 +2,7 @@
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-# Build a Docker image #
+# Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
